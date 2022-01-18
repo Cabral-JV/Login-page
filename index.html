@@ -19,6 +19,12 @@
 
 </head>
 
+<style>
+    .error {
+        color: red
+    }
+</style>
+
 <body class="h-100 d-flex">
     <div class="container-fluid">
         <div class="h-100 row">
@@ -50,7 +56,7 @@
                     <div class="d-flex justify-content-center">
                         <p>or</p>
                     </div>
-                    <div class="d-flex justify-content-center" style="outline: none;">
+                    <div class="d-flex justify-content-center">
                         <button type="button" class="btn btn-link text-dark">Login</button>
                     </div>
                 </div>
@@ -63,15 +69,23 @@
             <!--Sing Up Image-->
             <div class="col-12 col-lg-6 h-100" style="padding: 0px;">
                 <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselControls" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="carrouselimagem" src="Images/signup.jpeg" class="d-block w-100" alt="...">
+                            <img class="carrouselimagem" src="Images/carouselImg-1.jpeg" class="d-block w-100">
                         </div>
                         <div class="carousel-item">
-                            <img class="carrouselimagem" src="Images/signin-image.jpg" class="d-block w-100" alt="...">
+                            <img class="carrouselimagem" src="Images/carouselImg-2.jpg" class="d-block w-100">
                         </div>
                         <div class="carousel-item">
-                            <img class="carrouselimagem" src="Images/signup-image.jpg" class="d-block w-100" alt="...">
+                            <img class="carrouselimagem" src="Images/carouselImg-3.jpg" class="d-block w-100">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
@@ -91,6 +105,8 @@
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Plugin jQuery Validate -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"

@@ -509,7 +509,6 @@ label.valid {
   .container-fluid {
     max-width: 100%;} 
   }
-
 @media screen and (max-width: 768px) {
   .signup-content, .signin-content {
     flex-direction: column;
@@ -570,7 +569,7 @@ label.valid {
 
   .form-title {
     text-align: center; } }
-
+    
 @media screen and (max-width: 400px) {
   .social-login {
     flex-direction: column;
