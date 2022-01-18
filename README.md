@@ -6,7 +6,7 @@
 
 ## Sistema para cadastro de usúarios para uma pagina
 
-### Templates
+### Template
 <a href="https://colorlib.com/wp/template/colorlib-regform-7/">Formulário Reg Colorlib V7
 </a>
 
@@ -20,6 +20,6 @@
 
 ### Como rodar o projeto:
 
-<p>O projeto usa assets já compilados, portanto não exige compilação ao abrir o index.html ele já funcionará.</p>
+<p>O projeto usa assets já compilados, portanto não exige compilação ao abrir o home.html ele já funcionará.</p>
 
 ##### Coded by <a href="https://github.com/Cabral-JV/">João Victor Cabral</a>
