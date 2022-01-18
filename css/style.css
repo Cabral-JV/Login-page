@@ -174,16 +174,15 @@ figure {
 p {
   margin-bottom: 0px;
   font-size: 15px;
-  color: #777; }
+  color: #000;
+  text-align: center; }
 
-h2 {
-  line-height: 1.66;
-  margin: 0;
+h5 {
+  margin-bottom: 50px;
   padding: 0;
-  font-weight: bold;
+  font-weight: 600;
   color: #222;
-  font-family: Poppins;
-  font-size: 36px; }
+  font-size: 15px; }
 
 .main {
   background: #f8f8f8;
@@ -196,12 +195,12 @@ body {
   font-size: 13px;
   line-height: 1.8;
   color: #222;
-  background: #f8f8f8;
+  background: #efeeea;
   font-weight: 400;
   font-family: Poppins; }
 
 .container-fluid {
-  background: #fff;
+  background: #efeeea;
   margin: 0;
   box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
@@ -272,21 +271,11 @@ figure {
   text-align: center; }
 
 .form-submit {
-  display: inline-block;
-  background: #6dabe4;
-  color: #fff;
-  border-bottom: none;
+  display: inline-block;;
   width: auto;
-  padding: 15px 39px;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  -ms-border-radius: 5px;
-  margin-top: 25px;
-  cursor: pointer; }
-  .form-submit:hover {
-    background: #4292dc; }
+  padding: 10px;
+  border: 1px solid #000 !important;
+  }
 
 #signin {
   margin-top: 16px; }
@@ -311,10 +300,12 @@ figure {
 
 .form-group {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
   overflow: hidden; }
   .form-group:last-child {
-    margin-bottom: 0px; }
+    margin: 25px;
+    margin-bottom: 10px;
+  }
 
 input {
   width: 100%;
@@ -322,8 +313,8 @@ input {
   border: none;
   border-bottom: 1px solid #999;
   padding: 6px 30px;
-  font-family: Poppins;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #efeeea; }
   input::-webkit-input-placeholder {
     color: #999; }
   input::-moz-placeholder {
@@ -518,6 +509,7 @@ label.valid {
   .container-fluid {
     max-width: 100%;} 
   }
+
 @media screen and (max-width: 768px) {
   .signup-content, .signin-content {
     flex-direction: column;
@@ -530,6 +522,7 @@ label.valid {
     -webkit-justify-content: center;
     -o-justify-content: center;
     -ms-justify-content: center; }
+    
 @media screen and (max-width: 991px){
    #signupform{
     margin-bottom: 15px;
@@ -577,6 +570,7 @@ label.valid {
 
   .form-title {
     text-align: center; } }
+
 @media screen and (max-width: 400px) {
   .social-login {
     flex-direction: column;
@@ -587,6 +581,27 @@ label.valid {
 
   .social-label {
     margin-right: 0px;
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; } 
+  
+    #title-top{
+    margin-bottom: 10px;
+  }
+  .badgeImage{
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+  }
+  }
+  
+  .carrouselimagem{
+    height: 100vh;
+    width: 100%;
+  }
+
+  .badgeImage{
+    height: 40px;
+    width: auto;
+    margin-right: 5px;
+  }
 
 /*# sourceMappingURL=style.css.map */
