@@ -15,9 +15,6 @@ $("#register-form").validate({
         pass: {
             required: true,
             minlength: 6
-        },
-        mensagem: {
-            required: true
         }
     },
     messages: {
@@ -32,9 +29,6 @@ $("#register-form").validate({
         pass: {
             required: "Por favor, informe sua senha",
             minlength: "A senha deve ter pelo menos 6 caracteres"
-        },
-        mensagem: {
-            required: "A mensagem não pode ficar em branco"
         }
     }
 });
